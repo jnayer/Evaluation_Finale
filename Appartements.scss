@@ -1,0 +1,93 @@
+@font-face{
+    font-family: 'Raleway-Medium';
+    src: url(../Fonts/Raleway/Raleway-Medium.ttf);
+}
+@font-face{
+    font-family: 'Playfair-Display';
+    src: url(../Fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+#Appartements{
+    padding-top: 36px;
+    .container-fluid{
+        justify-content: center;
+        .row{
+            justify-content: center;
+            .grand{
+                transform:scale(1.15);
+                transition: 0.5s;
+            }
+            .appart{
+                transition: 0.5s;
+                background-color: white;
+                height: auto;
+                border-radius: 3px;
+                border: 1px solid #e6e6e6;
+                margin-left: 28px;
+                padding: 0;
+                margin-top: 30px;
+                .ImgAppartements{
+                    width: 100%;
+                }
+                
+                .AppartName{
+                    color: #3c3c3c;
+                    font-family: 'Raleway-Medium';
+                    font-size: 22px;
+                    margin-top: 25px;
+                    height: 22px;
+                }
+                .AppartPlace{
+                    color: #797979;
+                    font-family: "Playfair Display";
+                    font-size: 15px;
+                    height: 16px;
+                }
+                .AppartPrice{
+                    color: #e2574c;
+                    font-family: Helvetica;
+                    font-size: 16px;
+                    height: 16px;
+                    letter-spacing: 1.5px;
+                }
+                .AppartInfo{
+                    border-top: solid 1px #e6e6e6;
+                    color: #797979;
+                    font-family: Helvetica;
+                    font-size: 13px;
+                    padding-top: 16px;
+                }
+            }
+        }
+    }
+    button{
+        width: 174px;
+        height: 55px;
+        border-radius: 3px;
+        background-color: #e2574c;
+        color: white;
+        font-family: 'Raleway-Medium';
+        text-transform: uppercase;
+        box-shadow: none;
+        border: none;
+        margin-top: 50px;
+        margin-left: auto;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    #Appartements{
+        padding-top: 36px;
+        .container-fluid{
+            padding-right: 9%;
+            padding-left: 9%;
+            .row{
+                padding-left: 17%;
+            }
+        }
+        button{
+            margin-right: 0;
+        }
+    }
+}

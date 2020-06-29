@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'Raleway-Medium';
+    src: url(../Fonts/Raleway/Raleway-Medium.ttf);
+}
+@font-face{
+    font-family: 'Raleway-Light';
+    src: url(../Fonts/Raleway/Raleway-Light.ttf);
+}
+@font-face{
+    font-family: 'Playfair-Display';
+    src: url(../Fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+#title{
+    height: 226px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    h1{
+        height: 44px;
+        font-size: 45px;
+        padding-bottom: 30px;
+        font-family: 'Raleway-Light';
+        color: #3c3c3c;
+        .Properties{
+            font-family: 'Raleway-Medium';
+        }
+    }
+    .trait{
+        margin-top: 30px;
+        margin-bottom: 39px;
+        margin-left: 46.5%;
+        width: 7%;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #e2574c;
+        align-content: center;
+    }
+    #rdm-desc{
+        font-family: 'Playfair-Display';
+        width: 38%;
+        height: 44px;
+        font-weight: 400;
+        color: #797979;
+        font-size: 16px;
+        margin-left: 31%;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    #title{
+        height: 300px;
+        h1{
+            height: 100px;
+        }
+        #rdm-desc{
+            height: auto;
+            width: 100%;
+            margin-left: 0px;
+        }
+    }
+}
